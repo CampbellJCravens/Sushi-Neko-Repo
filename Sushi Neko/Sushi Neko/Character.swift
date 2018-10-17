@@ -31,6 +31,7 @@ class Character: SKSpriteNode {
     /* You are required to implement this for your subclass to work */
     override init(texture: SKTexture?, color: UIColor, size: CGSize) {
         super.init(texture: texture, color: color, size: size)
+        print("wow this is a hell of a character")
     }
     
     /* You are required to implement this for your subclass to work */
